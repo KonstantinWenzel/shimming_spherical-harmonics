@@ -1,2 +1,2 @@
-# Shimming with Spherical Harmonics
+# Shimming with the spherical harmonic approach
 A shimming algorithm for Halbach-based low-field magnetic resonance magnets calculating the placement of permanent magnets to compensate field inhomogeneities. The shim strategy is based on placing individual permanent magnet around the bore. The algorithm is a genetic algorithms based on the deap module, which determine the placement of the shim magnets and their orientation. The algorithm only considers the z-component of the magnetic flux and the distributions of the individual magnets are estimated with the dipole approximation. The field representation is spherical harmonic functions.
