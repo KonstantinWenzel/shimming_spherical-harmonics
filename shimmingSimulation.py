@@ -874,9 +874,9 @@ if __name__ == "__main__":
         "dimension": (0.05, 0.05, 0.05),
         "size": 9e-3,
         "remanence": 1.3,
-        "popSim": 250, # 00,
-        "minGeneration": 40, # 300,
-        "maxGeneration": 40, # 2000,
+        "popSim": 25000,
+        "minGeneration": 300,
+        "maxGeneration": 2000,
         "CXPB": 0.75,  # crossover
         "MUTPB": 0.2,  # mutation
         "MUTINDPB": 0.05,  # propability for mutation of a gene
